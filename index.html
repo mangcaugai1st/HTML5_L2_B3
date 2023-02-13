@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+<div class="container">
+    <header>
+        <img src="images/Capture3.PNG" alt="" id="img_header">
+    </header>
+    <hr color="#1893bf">
+    <ul>
+        <li>TRANG CHỦ</li>
+        <li>HTML5 CƠ BẢN</li>
+        <li>HTML5 NÂNG CAO</li>
+        <li>KỸ THUẬT HTML5</li>
+        <li>TIN TỨC HTML5</li>
+        <li>ĐĂNG KÝ</li>
+        <li>ĐĂNG NHẬP</li>
+        <li>LIÊN HỆ</li>
+    </ul>
+    <hr color="#1893bf">
+    <div class="wrap">
+        <div class="div1">
+            <h1 style="text-decoration: underline;color: #1893bf">Chào mừng bạn đến với tạp chí HTML5 & CSS3</h1>
+
+            <form>
+                <label class="form1">Tên đăng nhập: <input class="input_cell" type="text" required></label><br>
+                <label class="form1">Mật khẩu: <input class="input_cell" type="text" required></label><br>
+                <label class="form1">Email:
+                    <input class="input_cell" type="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="abc@example.com" required></label><br>
+                <label for="location" class="form1">Thành phố:
+                    <input class="input_cell" type="text" name="location" list="location">
+                    <datalist id="location">
+                        <option value="Hà Nội">
+                        <option value="Hải Phòng">
+                        <option value="Đà Nẵng">
+                        <option value="Hồ Chí Minh">
+                        <option value="Cần Thơ">
+                    </datalist>
+                </label><br>
+                <div style="display: flex; flex-direction: row">
+                    <label class="form1">
+                        Độ tuổi trung bình: <input type="range" value="20" min="18" max="45"
+                                                   oninput="document.getElementById('rangeNumber').innerHTML = this.value" class="input_cell"/>
+                    </label>
+                    <p id="rangeNumber" style="font-size: 20px"></p>
+                </div>
+
+                <h3>Bạn muốn theo dõi bài viết từ chủ đề nào?</h3>
+                <div>
+                    <label style="margin-left: 10%" class="form2"><input type="checkbox">HTML5 cơ bản</label>
+                    <label style="margin-left: 30%" class="form2"><input type="checkbox">CSS3 cơ bản</label><br>
+                    <label style="margin-left: 10%" class="form2"><input type="checkbox">HTML5 nâng cao</label>
+                    <label style="margin-left: 28.2%" class="form2"><input type="checkbox">CSS3 nâng cao</label><br>
+                </div>
+                <div style="margin-left: 50%; margin-top: 10px">
+                    <button class="reset-button" type="button">Làm lại</button>
+                    <button class="submit-button" type="submit" value="Submit">Đăng ký</button>
+                </div>
+            </form>
+            <h1 style="text-decoration: underline; color: #1893bf">Thành phần HTML5</h1>
+            <div style="display: flex; flex-direction: row">
+                <div style="margin-left: 50px">
+                    <img src="images/Icon1.PNG" alt="">
+                </div>
+                <div style="margin-left: 50px">
+                    <img src="images/Icon2.PNG" alt="">
+                </div>
+                <div style="margin-left: 150px">
+                    <img src="images/Icon3.PNG" alt="">
+                </div>
+                <div style="margin-left: 120px">
+                    <img src="images/Icon4.PNG" alt="">
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: row" class="ingre">
+                <div style="margin-left: 50px">
+                    <p style="color: #1893bf">EFFECTS</p>
+                </div>
+                <div style="margin-left: 50px">
+                    <p style="color: #1893bf">CONNECTIVITY</p>
+                </div>
+                <div style="margin-left: 50px">
+                    <p style="color: #1893bf">MULTIMEDIA</p>
+                </div>
+                <div style="margin-left: 50px">
+                    <p style="color: #1893bf">OFFLINE STORAGE</p>
+                </div>
+            </div>
+            <hr color="#1893bf">
+        </div> <!--class="div1"-->
+        <div class="div2">
+            <aside>
+                <img src="images/Capture1.PNG" alt="" style="height: 700px">
+            </aside>
+        </div>
+    </div> <!--wrap-->
+    <hr color="#1893bf">
+    <footer>
+        <p style="font-weight: bold">Đây là trang Web phục vụ việc thực hành của sinh viên FPT Polytechnic</p>
+        <p style="font-weight: bold">Nghiêm cấm sử dụng với mục đích thương mại</p>
+    </footer>
+</div> <!--class="container"-->
+</body>
+</html>

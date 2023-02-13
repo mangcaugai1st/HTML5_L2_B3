@@ -1,0 +1,97 @@
+html, body {
+    background: #ffffff;
+    display: flex;
+    justify-content: center;
+
+}
+
+.container {
+    background: #ebebeb;
+}
+
+#img_header {
+    padding-left: 15px;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 50px;
+    color: #e54d26;
+    font-weight: bolder ;
+}
+footer p {
+    text-align: center;
+}
+
+/* Form */
+/*form label*/ .form1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    text-align: right;
+    width: 400px;
+    line-height: 26px;
+    margin-bottom: 10px;
+}
+
+/*form input*/ .input_cell {
+    height: 20px;
+    flex: 0 0 200px;
+    margin-left: 10px;
+}
+/* Aside */
+aside {
+    position: relative;
+    float: right;
+    width: 170px;
+}
+/* wrap */
+.wrap {
+    display: flex;
+}
+/* div1 */
+.div1 {
+    width: 63%;
+    height: auto;
+    border: none;
+}
+
+/* */
+.ingre p {
+    font-weight: bold ;
+    font-size: larger;
+}
+/* h1 */
+h1 {
+    margin-left: 50px;
+}
+/* h3 */
+h3 {
+    margin-left: 50px;
+}
+
+/* Submit button */
+.submit-button{
+    padding: 10px 30px;
+    color: #1893bf;
+    background-color: #d5d5d5;
+    border: none;
+}
+.submit-button:hover {
+    border: 1px solid black;
+}
+/* reset button */
+.reset-button{
+    padding: 10px 30px;
+    color: #1893bf;
+    background-color: #d5d5d5;
+    border: none;
+}
+.reset-button:hover {
+    border: 1px solid black;
+}
+
+/* form 2 */
+.form2 {
+    font-weight: bold;
+}
